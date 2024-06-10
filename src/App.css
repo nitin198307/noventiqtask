@@ -1,0 +1,94 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.App img{
+  width: 100%;
+  margin-bottom: 32px;
+
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+
+}
+.d-flex span {
+  flex: 0 0 22%;
+}
+
+.d-flex input {
+  flex: 0 0 78%;
+}
+input, select, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px; /* Space for the eye icon */
+}
+
+.password-container .toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+span {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: black;
+}
+
+p {
+  color: green;
+}
+
+#content{
+  display: none;
+}
+
+
+#root{
+width: 100%;
+}   
